@@ -1,4 +1,4 @@
-# top100_nintendo_games
+# Top 100 Nintendo Games
 This dataset ranks the top 100 Nintendo games of all time dating from 1989 to 2023
 
 **Introduction**
@@ -25,3 +25,14 @@ For this study, I primarily used Nintendo Life's site, which lists their "[Top 1
 | Genre | Genre(s) of the video game | 
 | Year Published | Indicates the year the game was released in the USA |
 | Game Purchase Price | How much the game costs upon release, in US dollars |
+
+**Potential Questions this Database can Answer:**
+1) What is the most popular Nintendo game?
+2) What Nintendo system had the most games in the top 100?
+3) What was the average price for a video game?
+4) Which game developers got published by Nintendo?
+5) How many players can play each game?
+
+**Conclusion**
+This database's objective is to show what gamers vote as the best Nintendo games of all time. This information can be valuable for gamers and developers, helping them make informed decisions based on a larger community.
+
