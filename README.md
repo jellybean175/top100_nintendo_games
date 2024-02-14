@@ -20,7 +20,6 @@ This database takes into consideration a variety of audience members:
 For this study, I primarily used Nintendo Life's site, which lists their "[Top 100 Best Nintendo Games of All Time](https://www.nintendolife.com/guides/top-100-best-nintendo-games-of-all-time)". You will see the information about top 100 Nintendo games, including the game's titles, genres, year released, number of players that can play at once, the price of the game and the developers.
 
 | Column | Attributes |
-|----------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+|----------|----------|
+| Row 1, Col 1 | Row 1, Col 2 | 
+| Row 2, Col 1 | Row 2, Col 2 | 
