@@ -15,7 +15,7 @@ This database takes into consideration a variety of audience members:
 - Developers that are looking to be make a video game that would be published by Nintendo can see what kinds of games their target audiences play, and create a game using this information
 - Hobbyists who enjoy ranking Nintendo products can use this list as a reference point for their own use
 
-  # Sample Data
+# Sample Data
 
 For this study, I primarily used Nintendo Life's site, which lists their "[Top 100 Best Nintendo Games of All Time](https://www.nintendolife.com/guides/top-100-best-nintendo-games-of-all-time)". You will see the information about top 100 Nintendo games, including the game's titles, genres, year released, number of players that can play at once, the price of the game and the developers.
 
