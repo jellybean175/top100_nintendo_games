@@ -1,0 +1,48 @@
+import top100_nintendo_games
+
+# Function to create the database and tables
+def create_database():
+    # Connect to SQLite database (or create if it doesn't exist)
+    conn = top100_nintendo_games.connect('top100_nintendo_games.db')
+    c = conn.cursor()
+
+    # Create a table for games
+    c.execute('''CREATE TABLE IF NOT EXISTS games (
+                    id INTEGER PRIMARY KEY,
+                    title TEXT,
+                    genre TEXT,
+                    developers TEXT,
+                    ign_rating REAL,
+                    system TEXT,
+                    year_released INTEGER
+                )''')
+
+    # Commit changes and close connection
+    conn.commit()
+    conn.close()
+
+# Function to add a game to the database
+def add_game(title, genre, developers, ign_rating, system, year_released):
+    conn = top100_nintendo_games.connect('top100_nintendo_games.db')
+    c = conn.cursor()
+
+    # Insert game data into the games table
+    c.execute('''INSERT INTO games (title, genre, developers, ign_rating, system, year_released)
+                VALUES (?, ?, ?, ?, ?, ?)''', (title, genre, developers, ign_rating, system, year_released))
+
+    # Commit changes and close connection
+    conn.commit()
+    conn.close()
+
+# Example usage
+if __name__ == "__main__":
+    # Create the database and tables
+    create_database()
+
+    # Add sample game data
+    add_game("The Legend of Zelda: Breath of the Wild", "Action-Adventure", "Nintendo SPD", 10, "Nintendo Switch", 2017)
+    add_game("Super Mario Odyssey", "Platformer", "Nintendo EPD", 10.0, "Nintendo Switch", 2017)
+    add_game("Animal Crossing: New Horizons", "Life simulation", "Nintendo EPD", 9.0, "Nintendo Switch", 2020)
+    # Add more games as needed
+
+    print("Database and tables created successfully.")
