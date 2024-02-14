@@ -21,5 +21,7 @@ For this study, I primarily used Nintendo Life's site, which lists their "[Top 1
 
 | Column | Attributes |
 |----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | 
-| Row 2, Col 1 | Row 2, Col 2 | 
+| Game Title | Name of the game | 
+| Genre | Genre(s) of the video game | 
+| Year Published | Indicates the year the game was released in the USA |
+| Game Purchase Price | How much the game costs upon release, in US dollars |
